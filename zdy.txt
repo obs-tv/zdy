@@ -1,0 +1,182 @@
+{
+  "spider": "./jar/custom_spider.jar;md5;F1859A79A60B4FD5BB16A0F826568C31",
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723776411507/logo.gif",
+  "sites": [
+     {
+	   "key": "js豆瓣",
+	   "name": "🍥┃豆瓣┃网盘线路、不限速、不限制客户端🍥",
+	   "type": 3,
+	   "api": "./js/drpy2.min.js",
+	   "searchable": 0,
+	   "quickSearch": 0,
+	   "filterable": 0,
+	   "ext": "./js/douban.js"
+	}, 
+     {
+      "key": "ConfigCenter",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "哔哩FM",
+      "name": "哔哩哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/bilibili.json",
+        "cookie": ""
+      }
+    },	
+    {
+      "key": "多多玩偶",
+      "name": "多多影音",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://tv.yydsys.cc/",
+        "filter": "./json/wogg.json"
+      }
+    },	 		
+    {
+      "key": "玩偶gg",
+      "name": "饭硬玩偶",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "./json/wogg.json"
+      }
+    },		
+     {
+      "key": "易搜",
+      "name": "易搜网盘",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    {
+      "key": "盤搜索",
+      "name": "网盘搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
+    },	
+       {
+            "key": "文采",
+            "name": "💮文采┃秒播",
+            "type": 3,
+            "api": "csp_Jpys",
+            "jar": "./jar/fty.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "醉挽清风",
+            "name": "❤️醉挽清风┃4K纯净",
+            "type": 3,
+            "api": "./api/drpy.min.js",
+            "jar": "./jar/my.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/qingfeng.js"
+        },
+		{
+			"key": "hipy_js_多多追剧[优]",
+			"name": "多多追剧",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./js/多多追剧[优].js"
+		},				
+		
+		{
+			"key": "csp_XBPQ_茶杯狐",
+			"name": "茶杯聚合",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/茶杯.json",
+			"jar":"./jar/fine.jar;md5;70235CDCA3C95116FFC00BEA3A99C2C6"
+		},
+		{
+			"key": "csp_奇优",
+			"name": "奇优影院",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/奇优影院.json",
+			"jar":"./jar/fine.jar;md5;70235CDCA3C95116FFC00BEA3A99C2C6"			
+		}
+  ],
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "lives",
+          "urls": [
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9wYW4ubHk5My5jYy9mL28zVmtjbS9jdi50eHQ="
+          ]
+        }
+      ]
+    },	  
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "TV",
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1
+    }
+  ] 
+}
