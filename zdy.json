@@ -103,7 +103,7 @@
             "key": "醉挽清风",
             "name": "❤️醉挽清风┃4K纯净",
             "type": 3,
-            "api": "./api/drpy.min.js",
+            "api": "./js/drpy.min.js",
             "jar": "./jar/my.jar",
             "searchable": 1,
             "quickSearch": 1,
