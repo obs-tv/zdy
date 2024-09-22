@@ -98,19 +98,7 @@
             "quickSearch": 1,
             "changeable": 1
         },
-        {
-            "key": "醉挽清风",
-            "name": "❤️醉挽清风┃4K纯净",
-            "type": 3,
-            "api": "./js/drpy.min.js",
-            "jar": "./jar/my.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./js/qingfeng.js"
-        },
-		{
+	{
 			"key": "hipy_js_多多追剧[优]",
 			"name": "多多追剧",
 			"type": 3,
