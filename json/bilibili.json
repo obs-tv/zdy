@@ -1,44 +1,34 @@
 {
   "class": [
     {
-      "type_name": "纪录片",
-      "type_id": "jlp"
+      "type_name": "纪录片"
     },
    {
-      "type_name": "科技",
-     "type_id": "kj"
+      "type_name": "科技"
     },
        {
-      "type_name": "教育",
-         "type_id": "jy"
+      "type_name": "教育"
     },
        {
-      "type_name": "学习",
-         "type_id": "xx"
+      "type_name": "学习"
     },
        {
-      "type_name": "仿真",
-         "type_id": "fz"
+      "type_name": "仿真"
     },
        {
-      "type_name": "有限元",
-         "type_id": "yxy"
+      "type_name": "有限元"
     },
        {
-      "type_name": "项目管理",
-         "type_id": "xmgl"
+      "type_name": "项目管理"
     },
        {
-      "type_name": "PMP",
-         "type_id": "pmp"
+      "type_name": "PMP"
     },
        {
-      "type_name": "abaqus",
-         "type_id": "abaqus"
+      "type_name": "abaqus"
     },
        {
-      "type_name": "Creo",
-         "type_id": "creo"
+      "type_name": "Creo"
     }
   ]
 
