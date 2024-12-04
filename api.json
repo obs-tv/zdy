@@ -549,15 +549,15 @@
     ],
     "lives": [
         {
-            "name": "直播",
+            "name": "KXTV",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
+            "url": "http://ttkx.cc:55//lib/kx2024.txt",
             "playerType": 2
         },
         {
-            "name": "范明明",
+            "name": "猫TV",
             "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "url": "http://rihou.cc:567/gggg.nzk",
             "playerType": 2
         },
         {
@@ -567,33 +567,9 @@
             "ua": "okhttp/3.15"
         },
         {
-            "name": "肥羊TPTV",
+            "name": "自定义",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊虎牙一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊B站直播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊斗鱼一起看",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
-            "ua": "okhttp/3.15"
-        },
-        {
-            "name": "肥羊YY轮播",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
+            "url": ".live.txt",
             "ua": "okhttp/3.15"
         }
     ],
