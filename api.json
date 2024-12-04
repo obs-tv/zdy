@@ -551,7 +551,7 @@
         {
             "name": "KXTV",
             "type": 0,
-            "url": "http://ttkx.cc:55//lib/kx2024.txt",
+            "url": "http://ttkx.cc:55/lib/kx2024.txt",
             "ua": "okhttp/3.15"
         },
         {
