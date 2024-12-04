@@ -570,7 +570,7 @@
         {
             "name": "自定义",
             "type": 0,
-            "url": ".live.txt",
+            "url": "./live.txt",
             "ua": "okhttp/3.15"
         }
     ],
