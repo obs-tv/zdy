@@ -645,7 +645,7 @@
             "timeout": 10
         },
         {
-            "name": "AI直播",
+            "name": "AKTV",
             "type": 0,
             "url": "./lib/aktv.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
