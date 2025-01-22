@@ -34,75 +34,6 @@
             },
             "jar": "./wex.jar"
         },
-        {
-            "key": "我的阿里",
-            "name": "我的｜阿里",
-            "type": 3,
-            "api": "csp_MyAli",
-            "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "我的夸克",
-            "name": "我的｜夸克",
-            "type": 3,
-            "api": "csp_MyQuark",
-            "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "我的UC",
-            "name": "我的｜UC",
-            "type": 3,
-            "api": "csp_MyUc",
-             "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "阿里合集",
-            "name": "阿里｜合集",
-            "type": 3,
-            "api": "csp_AliShare",
-             "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "searchable": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./JS/alishare.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
     {
       "key": "多多影音",
       "name": "👲┃多多┃影音",
@@ -124,7 +55,6 @@
       "name": "👲┃多多┃JS",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-       "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
