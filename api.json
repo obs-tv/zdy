@@ -39,6 +39,7 @@
             "name": "我的｜阿里",
             "type": 3,
             "api": "csp_MyAli",
+            "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
@@ -55,6 +56,7 @@
             "name": "我的｜夸克",
             "type": 3,
             "api": "csp_MyQuark",
+            "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
@@ -71,6 +73,7 @@
             "name": "我的｜UC",
             "type": 3,
             "api": "csp_MyUc",
+             "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
@@ -87,6 +90,7 @@
             "name": "阿里｜合集",
             "type": 3,
             "api": "csp_AliShare",
+             "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
             "searchable": 1,
             "changeable": 0,
             "filterable": 0,
@@ -120,6 +124,7 @@
       "name": "👲┃多多┃JS",
       "type": 3,
       "api": "./lib/drpy2.min.js",
+       "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -643,30 +648,16 @@
         {
             "name": "AKTV",
             "type": 0,
-            "url": "./lib/aktv.txt",
+            "url": "http://aktv.top/live.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
             "playerType": 2,
             "timeout": 10
         },
         {
-            "name": "电视Live",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
-            "name": "网络Live",
-            "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Live",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
             "name": "范明明",
             "type": 0,
-            "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+            "url": "https://ghproxy.net/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
         }
