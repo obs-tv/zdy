@@ -895,6 +895,51 @@
         }
     ],
     "lives": [
+       {
+      "name": "智能直播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "jar": "./lib/Pizazz.jar",
+      "url": "tv.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+       },
+        {
+      "name": "B站直播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "jar": "./lib/Pizazz.jar",
+      "url": "bililive.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+       },
+        {
+      "name": "虎牙一起看",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "jar": "./lib/Pizazz.jar",
+      "url": "huyayqk.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+       },
+        {
+      "name": "斗鱼一起看",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "jar": "./lib/Pizazz.jar",
+      "url": "douyuyqk.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+       },
+      {
+      "name": "YY轮播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "jar": "./lib/Pizazz.jar",
+      "url": "yylunbo.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+       },
         {
             "name": "自定义",
             "type": 0,
