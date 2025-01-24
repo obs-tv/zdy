@@ -1,0 +1,69 @@
+[
+  {
+    "name": "使用教程",
+    "list": [
+      {
+        "name": "开启方法",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "先加载文件",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "再开启直播",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      }
+    ]
+  },
+  {
+    "name": "加载文件",
+    "list": [
+      {
+        "name": "Allinone",
+        "url": "./X86/x32.zip",
+        "icon": "http://我不是.摸鱼儿.com/picture.php",
+        "version": "32位"
+      },
+      {
+        "name": "Allinone",
+        "url": "./X64/x64.zip",
+        "icon": "http://我不是.摸鱼儿.com/picture.php",
+        "version": "64位"
+      }
+    ]
+  },
+  {
+    "name": "温馨提示",
+    "list": [
+      {
+        "name": "保证使文件完全下载",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "功能无法兼容影视仓",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "使用软件内直播开启",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "播放卡住或者断流",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      },
+      {
+        "name": "请尝试重启软件",
+        "url": "",
+        "icon": "http://我不是.摸鱼儿.com/picture.php"
+      }
+    ]
+  }
+]
