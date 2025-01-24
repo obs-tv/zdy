@@ -24,13 +24,13 @@
     "list": [
       {
         "name": "Allinone",
-        "url": "./X86/x32.zip",
+        "url": "http://ghproxy.cn/https://raw.githubusercontent.com/obs-tv/zdy/main/X86/x32.zip",
         "icon": "http://我不是.摸鱼儿.com/picture.php",
         "version": "32位"
       },
       {
         "name": "Allinone",
-        "url": "./X64/x64.zip",
+        "url": "http://ghproxy.cn/https://raw.githubusercontent.com/obs-tv/zdy/main/X64/x64.zip",
         "icon": "http://我不是.摸鱼儿.com/picture.php",
         "version": "64位"
       }
