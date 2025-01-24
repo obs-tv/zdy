@@ -45,6 +45,50 @@
       "indexs": 0,
       "ext": "./lib/Ailive.json"
     },
+{
+      "key": "腾讯",
+      "name": "腾讯",
+      "type": 3,
+      "api": "csp_Breeze",
+      "jar": "./lib/Mscd.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "",
+        "prefix": "OqNkQJ8UE5ePJyQ+3ZIVXvNU6Mwa84ccq4DB2/4eYsQ="
+      }
+    },
+    {
+      "key": "芒果",
+      "name": "芒果",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "jar": "./lib/Mscd.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "",
+        "prefix": "EmOC0JSsmwKKhQSgkdhEf2iTD28hJPg9/v0KXx+MZJc="
+      }
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇艺",
+      "type": 3,
+      "api": "csp_Blessings",
+      "jar": "./lib/Mscd.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "jxApi": "",
+        "prefix": "2+i4Bj4zNvfxDWOJttF9co2b0aOgtYP+9xoRPcNijjQ="
+      }
+    },
     {
       "key": "多多影音",
       "name": "👲┃多多┃影音",
@@ -60,16 +104,6 @@
           "https://tv.214521.xyz"
         ]
       }
-    },
-    {
-      "key": "多多影音备用",
-      "name": "👲┃多多┃JS",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/多多影音.js"
     },
     {
       "key": "玩偶gg",
@@ -146,6 +180,9 @@
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
                 "danmu": true
+                "site_urls": [
+          "https://woggpan.333232.xyz/"
+        ]
             }
         },
         {
@@ -202,23 +239,6 @@
             }
         },
         {
-            "key": "夸克多多弹幕",
-            "name": "多多｜4K弹幕",
-            "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://tv.yydsys.top",
-                "danmu": true
-            }
-        },
-        {
             "key": "夸克蜡笔弹幕",
             "name": "蜡笔｜4K弹幕",
             "type": 3,
@@ -231,7 +251,10 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://feimaoai.site",
+                 "site_urls": [
+          "http://feimaoai.site",
+           "http://labipan.com/"
+         ]
                 "danmu": true
             }
         },
@@ -248,7 +271,10 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://xiaomiai.site",
+                "site_urls": [
+          "https://xiaomiai.site",
+           "http://www.xhww.net/"
+         ]
                 "danmu": true
             }
         },
@@ -373,6 +399,161 @@
                 "danmu": true
             }
         },
+         {
+      "key": "文才弹幕",
+      "name": "文才1080",
+      "type": 3,
+      "api": "csp_Jpys",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "视觉",
+      "name": "视觉1080",
+      "type": 3,
+      "api": "csp_Drama",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 2,
+      "ext": "saHR0cDovLzExOC4yNS4xOC4yMTc6NjYzMnxURkxZV1ZKNUVHNVlCMVBMWkxWVk1HVkxCR1JJRENTV3xuajZFNUs0eVlZVDVXNFNjSjNKM3JKMnpyemNKa3BUa3wyMQ=="
+    },
+    {
+      "key": "人人",
+      "name": "人人1080",
+      "type": 3,
+      "api": "csp_Xdai",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 1,
+      "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS8xLnR4dHxGNTFGNUQ1MkQyM0NCRjI3fEY1MUY1RDUyRDIzQ0JGMjd8MTky"
+    },
+    {
+      "key": "图图",
+      "name": "图图1080",
+      "type": 3,
+      "api": "csp_APPTT",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 1,
+      "ext": "cTTFtUDdPa0x3SzNyanpQKnxFNW9WTzFlek40cGgxVTV3MXFORjVaa0NzMEFZanpQKnxodHRwOi8vNDMuMjQ4LjExNy4yNTM6NTU4OC98RERIR2xKNmVVSHoyNmxnZHxxT3FaOU9QNEsxTkxCZjRIaDVKQnc5VUxsSzg5R2V1VA=="
+    },
+    {
+      "key": "木头",
+      "name": "木头1080",
+      "type": 3,
+      "api": "csp_Shark",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 1,
+      "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+    },
+    {
+      "key": "星河",
+      "name": "星河1080",
+      "type": 3,
+      "api": "csp_Muou",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 2,
+      "ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
+    },
+    {
+      "key": "客星",
+      "name": "客星1080",
+      "type": 3,
+      "api": "csp_Xdai",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 1,
+      "ext": "caHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS50eHR8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2QxfDEwNg=="
+    },
+    {
+      "key": "蝴蝶",
+      "name": "蝴蝶1080",
+      "type": 3,
+      "api": "csp_Hudie",
+      "jar": "./lib/Pizazz.jar",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+    },
+    {
+      "key": "洽洽影视",
+      "name": "瓜子1080",
+      "type": 3,
+      "api": "csp_AppGZ",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
+    },
+    {
+      "key": "厂长弹幕",
+      "name": "厂长1080",
+      "type": 3,
+      "api": "csp_Czzy",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "天天弹幕",
+      "name": "天天1080",
+      "type": 3,
+      "api": "csp_TianTian",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+      }
+    },
+    {
+      "key": "热播弹幕",
+      "name": "热播1080",
+      "type": 3,
+      "api": "csp_TianTian",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "site": "aHR0cDovL3YucmJvdHYuY24="
+      }
+    },
+    {
+      "key": "浪酷弹幕",
+      "name": "浪酷1080",
+      "type": 3,
+      "api": "csp_TianTian",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "site": "aHR0cDovL3YubGt1eXMuY24="
+      }
+    },
+    {
+      "key": "糯米弹幕",
+      "name": "糯米1080",
+      "type": 3,
+      "api": "csp_Nmys",
+      "jar": "./lib/Pizazz.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
         {
             "key": "115",
             "name": "115｜4K",
