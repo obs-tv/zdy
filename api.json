@@ -179,7 +179,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
-                "danmu": true
+                "danmu": true,
                 "site_urls": [
           "https://woggpan.333232.xyz/"
         ]
@@ -254,7 +254,7 @@
                  "site_urls": [
           "http://feimaoai.site",
            "http://labipan.com/"
-         ]
+         ],
                 "danmu": true
             }
         },
@@ -274,7 +274,7 @@
                 "site_urls": [
           "https://xiaomiai.site",
            "http://www.xhww.net/"
-         ]
+         ],
                 "danmu": true
             }
         },
