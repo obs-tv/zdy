@@ -734,6 +734,15 @@
       "timeout": 10,
       "ua": "okhttp/3.15"
        },
+    {
+      "name": "饭太硬",
+      "type": 3,
+     "jar": "./lib/fty.jar",
+      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.iill.top/logo/{name}.png"
+    },
         {
       "name": "斗鱼一起看",
       "type": 3,
