@@ -1,5 +1,5 @@
 {
-    "spider": "./lib/fty.jar",
+    "spider": "./lib/fty.jar;md5;c4745a1b57105d124cf1b429eba5d4bf",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
