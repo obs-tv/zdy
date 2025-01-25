@@ -1,5 +1,5 @@
 {
-    "spider": "./spo.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C",
+    "spider": "./lib/fty.jar",",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
@@ -732,8 +732,7 @@
     {
       "name": "饭太硬",
       "type": 1,
-     "jar": "./lib/fty.jar",
-      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+       "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.iill.top/logo/{name}.png"
