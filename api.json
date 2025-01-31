@@ -34,17 +34,6 @@
             },
             "jar": "./wex.jar"
         },
-    {
-      "key": "肥羊电视",
-      "name": "安装肥羊❛‿˂̵✧",
-      "type": 3,
-      "api": "csp_Market",
-      "jar": "./lib/Pizazz.jar",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "ext": "./lib/Ailive.json"
-    },
 {
       "key": "腾讯",
       "name": "腾讯",
@@ -702,60 +691,7 @@
         }
     ],
     "lives": [
-       {
-      "name": "智能直播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "jar": "./lib/Pizazz.jar",
-      "url": "tv.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-       },
-        {
-      "name": "B站直播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "jar": "./lib/Pizazz.jar",
-      "url": "bililive.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-       },
-        {
-      "name": "虎牙一起看",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "jar": "./lib/Pizazz.jar",
-      "url": "huyayqk.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-       },
-    {
-      "name": "饭太硬",
-      "type": 0,
-       "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
-      "playerType": 1,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.iill.top/logo/{name}.png"
-    },
-        {
-      "name": "斗鱼一起看",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "jar": "./lib/Pizazz.jar",
-      "url": "douyuyqk.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-       },
-      {
-      "name": "YY轮播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "jar": "./lib/Pizazz.jar",
-      "url": "yylunbo.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-       },
-        {
+     {
             "name": "自定义",
             "type": 0,
             "url": "http://ghproxy.cn/https://raw.githubusercontent.com/obs-tv/tv/main/live.txt",
@@ -773,19 +709,10 @@
             "playerType": 2,
             "timeout": 10
         },
-        {
-            "name": "AKTV",
-            "type": 0,
-            "url": "http://aktv.top/live.txt",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 2,
-            "timeout": 10
-        },
-        {
+{
             "name": "范明明",
             "type": 0,
-            "url": "https://ghproxy.cn/https:///raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+            "url": "https://ghfast.top/https:///raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
             "playerType": 2,
             "timeout": 10
         }
