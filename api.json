@@ -1,5 +1,5 @@
 {
-    "spider": "./lib/fty.jar;md5;c4745a1b57105d124cf1b429eba5d4bf",
+    "spider": "./spo.jar;md5;DCC4DF2D0197DCBB108CBA12050D827C",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
@@ -15,25 +15,24 @@
       "name": "📀┃网盘┃配置",
       "type": 3,
       "api": "csp_Config",
-      "jar": "./lib/set.jar;md5;F5673F838EAEAF14CD986E10053CCB2B",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1
         },
-        {
-            "key": "影视配置",
-            "name": "影视｜配置",
-            "type": 3,
-            "api": "csp_Wexconfig",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "jar": "./wex.jar"
-        },
+    {
+      "key": "弹幕配置",
+      "name": "☄️┃弹幕┃配置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
 {
       "key": "腾讯",
       "name": "腾讯",
@@ -78,20 +77,32 @@
         "prefix": "2+i4Bj4zNvfxDWOJttF9co2b0aOgtYP+9xoRPcNijjQ="
       }
     },
-    {
+ {
       "key": "多多影音",
       "name": "👲┃多多┃影音",
       "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "searchable": 1,
       "changeable": 0,
-      "filterable": 1,
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
       "ext": {
-        "site_urls": [
-          "https://tv.yydsys.top",
-          "https://tv.yydsys.cc",
-          "https://tv.214521.xyz"
-        ]
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://tv.yydsys.top/",
+        "filter": "./lib/wogg.json"
+      }
+    },
+    {
+      "key": "多多备用",
+      "name": "👲┃多多┃网盘",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://tv.yydsys.cc/",
+        "filter": "./lib/wogg.json"
       }
     },
     {
@@ -101,85 +112,78 @@
       "api": "csp_Wogg",
       "searchable": 1,
       "playerType": 2,
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
       "timeout": 30,
       "changeable": 0,
       "ext": {
-        "site_urls": [
-          "https://wogg.xxooo.cf/",
-          "https://www.wogg.bf/",
-          "https://www.wogg.net/"
-        ]
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://woggpan.333232.xyz/",
+        "filter": "./lib/wogg.json"
       }
     },
     {
       "key": "土豆玩偶",
       "name": "🥔┃土豆┃玩偶",
       "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "type": 3,
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
+      "searchable": 1,
       "changeable": 0,
-      "filterable": 1,
       "ext": {
-        "site_urls": [
-          "https://yunpan.yunpay.cc"
-        ]
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://yunpan.yunpay.cc",
+        "filter": "./lib/wogg.json"
       }
     },
     {
       "key": "蜡笔玩偶",
       "name": "🖍️┃蜡笔┃玩偶",
       "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
+      "searchable": 1,
       "changeable": 0,
-      "filterable": 1,
       "ext": {
-        "site_urls": [
-          "http://labipan.com"
-        ]
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://labipan.com/",
+        "filter": "./lib/wogg.json"
       }
     },
     {
-      "key": "木偶弹幕",
-      "name": "️🎠┃木偶┃玩偶",
+      "key": "木偶锅锅",
+      "name": "️🎠┃木偶┃锅锅",
       "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
+      "searchable": 1,
       "changeable": 0,
-      "filterable": 1,
       "ext": {
-        "site_urls": [
-          "http://mogg.top"
-        ]
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "http://www.muoupan.top/",
+        "filter": "./lib/wogg.json"
       }
     },
         {
             "key": "玩偶弹幕",
             "name": "玩偶｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "wogg": true,
-                "danmu": true,
-                "site_urls": [
-          "https://woggpan.333232.xyz/"
-        ]
-            }
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./lib/peizhi.json",
+        "siteUrl": "https://woggpan.333232.xyz/",
+        "filter": "./lib/wogg.json"
+      }
         },
         {
             "key": "夸克闪电弹幕",
             "name": "闪电｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -196,8 +200,8 @@
             "key": "夸克欧歌弹幕",
             "name": "欧哥｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -214,8 +218,8 @@
             "key": "夸克小米弹幕",
             "name": "小米｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -231,8 +235,8 @@
             "key": "夸克蜡笔弹幕",
             "name": "蜡笔｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -251,8 +255,8 @@
             "key": "夸克至臻弹幕",
             "name": "至臻｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -271,8 +275,8 @@
             "key": "夸克土豆弹幕",
             "name": "土豆｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -288,8 +292,8 @@
             "key": "夸克木偶弹幕",
             "name": "木偶｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -305,8 +309,8 @@
             "key": "夸克六趣弹幕",
             "name": "六趣｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -323,8 +327,8 @@
             "key": "夸克奥秘弹幕",
             "name": "奥秘｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -341,8 +345,8 @@
             "key": "夸克白嫖弹幕",
             "name": "白嫖｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -358,8 +362,8 @@
             "key": "夸克虎斑弹幕",
             "name": "虎斑｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -375,8 +379,8 @@
             "key": "夸克下饭弹幕",
             "name": "下饭｜4K弹幕",
             "type": 3,
-      "api": "csp_DDwo",
-      "jar": "./lib/ddwo.jar;md5;5C213862050E38D6861B767CF1E5F855",
+      "api": "csp_kongbai",
+      "jar": "./lib/zxdx.jar;md5;43989964965deab2a4b6b48251043412",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
