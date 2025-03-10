@@ -1361,6 +1361,15 @@
     ],
     "lives": [
           {
+            "name": "自定义",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/obs-tv/tv/main/live.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 3,
+            "playerType": 2
+        }, 
+        {
             "name": "DIYP",
             "type": 0,
             "url": "http://iptv.diyp.site/diyp.php",
