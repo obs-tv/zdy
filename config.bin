@@ -1369,6 +1369,15 @@
             "timeout": 3,
             "playerType": 2
         }, 
+          {
+            "name": "猫TV",
+            "type": 0,
+            "url": "http://rihou.cc:555/gggg.nzk",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 3,
+            "playerType": 2
+        }, 
         {
             "name": "DIYP",
             "type": 0,
