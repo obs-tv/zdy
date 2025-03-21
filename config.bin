@@ -1,5 +1,5 @@
 {
-    "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+    "spider": "./spider.jar;md5;35BC24ED4CBAC25679143A8E0CD33EC8",
  "wallpaper": "https://yydsys.top/bg.php",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725712769296/%E9%A3%8E%E8%BD%A6new.gif",
     "sites": [
@@ -41,7 +41,7 @@
             "key": "多多弹幕",
             "name": "👲┃多多┃影音",
             "type": 3,
-            "api": "csp_kongbai",
+            "api": "csp_DuoDuo",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -49,26 +49,9 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://duoduo.banye.tech:7086",
                 "danmu": true
             }
         },
-        {
-            "key": "多多网盘",
-            "name": "👲┃多多┃网盘",
-            "type": 3,
-            "api": "csp_kongbai",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://tv.yydsys.top",
-                "danmu": true
-            }
-        },			
         {
             "key": "荐片",
             "name": "⏳┃荐片┃磁力",
@@ -81,14 +64,31 @@
             "ext": {
                 "danmu": true
             }
-        },		
+        },
+    {
+      "key": "洽洽影视",
+      "name": "🏕️┃瓜子┃影视",
+      "type": 3,
+      "api": "csp_AppGZ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
+    },
         {
             "key": "旺旺影视",
             "name": "🌞┃旺旺┃影视",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/农民影视.json"
-        },		
+        },	
+    {
+      "key": "素白白",
+      "name": "🐑┃白白┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/素白白.json"
+    },
         {
             "key": "厂长弹幕",
             "name": "🏭┃厂长┃弹幕",
@@ -111,7 +111,6 @@
             "filterable": 1,
             "ext": {
                 "danmu": true,
-                "site": "aHR0cDovL3R0LnlzZHFqcy5jbg=="
             }
         },
         {
@@ -134,7 +133,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true,
-                "site": "aHR0cDovL3YucmJvdHYuY24="
+                "site": "0"
             }
         },
         {
@@ -147,7 +146,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true,
-                "site": "aHR0cDovL3YubGt1eXMuY24="
+                "site": "2"
             }
         },
         {
@@ -185,13 +184,6 @@
                 "danmu": true
             }
         },
-        {
-            "key": "素白白",
-            "name": "🐑┃白白┃影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/素白白.js"
-        },		
         {
             "key": "哔哩弹幕",
             "name": "🅱️┃哔哩┃弹幕",
@@ -275,7 +267,7 @@
             "key": "夸克闪电弹幕",
             "name": "⚡️┃闪电┃网盘",
             "type": 3,
-            "api": "csp_kongbai",
+            "api": "csp_ShanDian",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -292,7 +284,7 @@
             "key": "夸克蜡笔弹幕",
             "name": "🖍️┃蜡笔┃玩偶",
             "type": 3,
-            "api": "csp_kongbai",
+            "api": "csp_Labi",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -308,7 +300,7 @@
             "key": "夸克木偶弹幕",
             "name": "🎠┃木偶┃锅锅",
             "type": 3,
-            "api": "csp_kongbai",
+            "api": "csp_Muou",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -320,6 +312,21 @@
                 "danmu": true
             }
         },
+ {
+      "key": "校长弹幕",
+      "name": "👨‍⚖┃校长┃网盘",
+      "type": 3,
+      "api": "csp_XiaoZhang",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "danmu": true
+      }
+    },
         {
             "key": "雷鲸",
             "name": "🐋┃雷鲸┃天意",
